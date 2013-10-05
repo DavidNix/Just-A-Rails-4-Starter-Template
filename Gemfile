@@ -76,6 +76,10 @@ group :development do
   gem 'foreman'
 end
 
+group :test do
+  gem 'database_cleaner'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
