@@ -20,4 +20,6 @@ Rename `database.yml.sample` and `.env.sample` to match your environment setting
 
 Change `exception notifier` config in `production.rb` to match your email settings.
 
+Change the key in the `session_store.rb` initializer.
+
 **IMPORTANT!!!**  When deploying to Heroku, set up env variable `SECRET_TOKEN`.  Use `rake secret` to generate a new one. This project uses an initializer to set the secret key base.
