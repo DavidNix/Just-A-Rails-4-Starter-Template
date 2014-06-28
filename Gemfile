@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.1.2'
 
 # Use postgres as the database for Active Record (Heroku Requirement)
 gem 'pg'
@@ -40,7 +40,7 @@ gem 'haml-rails'
 gem 'pry'
 
 # auth engine
-gem 'devise' 
+gem 'devise', '~> 3.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
