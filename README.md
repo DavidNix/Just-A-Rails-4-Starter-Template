@@ -14,7 +14,7 @@ If you use `rvm`, change `.ruby-version` and `.ruby-gemset` to match your rvm se
 
 Change the name of the application (which is currently `Template`) in `application.rb`.
 
-Do a find/replace for `Application::Template` and change it to the name of your application.
+Do a find/replace for `Template::Application` and change it to the name of your application.
 
 Rename `database.yml.sample` and `.env.sample` to match your environment settings.
 
